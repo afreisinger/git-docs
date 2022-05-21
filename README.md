@@ -741,4 +741,3 @@ git flow hotfix finish VERSION
     <img alt="Git" src="./img/git-flow-commands-without-flow.png">
 </p>
 <hr>
-:octocat: git and git flow cheat sheet
