@@ -1,5 +1,11 @@
 # Git and Git Flow Cheat Sheet
 
+<hr>
+<p align="center">
+    <img alt="Git" src="./img/git-logo.png" height="95" width="220">
+</p>
+<hr>
+
 ### Index
 * [Set Up](#setup)
 * [Configuration Files](#configuration-files)
@@ -735,3 +741,4 @@ git flow hotfix finish VERSION
     <img alt="Git" src="./img/git-flow-commands-without-flow.png">
 </p>
 <hr>
+:octocat: git and git flow cheat sheet
