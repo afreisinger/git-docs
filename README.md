@@ -18,6 +18,7 @@
 * [Merge & Rebase](#merge--rebase)
 * [Undo](#undo)
 * [Git Flow](#git-flow)
+* [Complete list of github emoji mMarkup](./emoji.md)
 
 
 <hr>
