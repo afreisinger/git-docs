@@ -65,6 +65,12 @@ $ git config --global color.ui auto
 $ git config --global core.editor vi
 ```
 
+#### Set to expect a case-sensitive or insensitive
+<em><sub>To tell Git to be case-senstive, simply set this setting to false.</sub></em>
+```
+git config core.ignorecase false
+```
+
 <hr>
 
 ## Configuration Files
