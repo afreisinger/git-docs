@@ -621,7 +621,7 @@ git submodule update --init --recursive
 
 #### To update all submodules
 ```
-git submodule foreach git pull origin master
+git submodule foreach git pull origin main
 ```
 
 
