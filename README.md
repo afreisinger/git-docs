@@ -17,6 +17,7 @@
 * [Update & Publish](#update--publish)
 * [Merge & Rebase](#merge--rebase)
 * [Undo](#undo)
+* [Submodules](#submodules)
 * [Git Flow](#git-flow)
 * [List of github emoji markup](./emoji.md)
 
@@ -596,7 +597,30 @@ $ git rm -r --cached .
 $ git add .
 $ git commit -m "remove xyz file"
 ```
+
+
+## Submodules
+
+#### Cloning a project with submodules
+<em><sub>Here we’ll clone a project with a submodule in it. When you clone such a project, by default you get the directories that contain submodules, but none of the files within them yet, so:</em></sub>
+
+```
+$ git clone --recursive https://github.com/chaconinc/MainProject
+```
+
+#### To initialize, fetch and checkout any nested submodules
+```
+git submodule update --init --recursive
+```
+
+#### To update all submodules
+```
+git submodule foreach git pull origin master
+```
+
+
 <hr>
+
 
 ## Git-Flow
 Improved [Git-flow](https://github.com/petervanderdoes/gitflow-avh)
