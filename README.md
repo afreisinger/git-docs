@@ -614,6 +614,12 @@ $ git commit -m "remove xyz file"
 $ git clone --recursive https://github.com/chaconinc/MainProject
 ```
 
+### To add submodule
+```
+ git submodule add https://github.com/chaconinc/DbConnector
+```
+
+
 #### To initialize, fetch and checkout any nested submodules
 ```
 git submodule update --init --recursive
